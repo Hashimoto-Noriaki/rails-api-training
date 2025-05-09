@@ -1,0 +1,17 @@
+current directory: /Users/hashimotonoriaki/git/rails-api-training/rails-api-training/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.7/ext/stringio
+/Users/hashimotonoriaki/.rbenv/versions/3.1.3/bin/ruby -I /Users/hashimotonoriaki/.rbenv/versions/3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Users/hashimotonoriaki/git/rails-api-training/rails-api-training/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250510-47888-2pmxgy sitelibdir\=./.gem.20250510-47888-2pmxgy clean
+
+current directory: /Users/hashimotonoriaki/git/rails-api-training/rails-api-training/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250510-47888-2pmxgy sitelibdir\=./.gem.20250510-47888-2pmxgy
+compiling stringio.c
+linking shared-object stringio.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/hashimotonoriaki/git/rails-api-training/rails-api-training/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250510-47888-2pmxgy sitelibdir\=./.gem.20250510-47888-2pmxgy install
+/usr/local/bin/ginstall -c -m 0755 stringio.bundle ./.gem.20250510-47888-2pmxgy
