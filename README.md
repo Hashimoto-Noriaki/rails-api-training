@@ -1,24 +1,8 @@
-# README
+#  Ruby 標準ライブラリ logger の読み込み漏れ
+Railsは標準ライブラリの Logger に依存していますが、Ruby 3.0以降では logger が明示的に require されていないと使えない 場合があります。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+解決策1：logger を明示的に読み込む
+プロジェクトの config/boot.rb の先頭あたりに以下を追加
+```config/boot.rb
+require 'logger'
+```
