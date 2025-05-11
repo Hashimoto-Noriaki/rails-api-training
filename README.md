@@ -6,3 +6,5 @@ Railsは標準ライブラリの Logger に依存していますが、Ruby 3.0�
 ```config/boot.rb
 require 'logger'
 ```
+# rails new
+https://railsguides.jp/api_app.html
